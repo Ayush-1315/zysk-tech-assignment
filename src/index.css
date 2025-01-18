@@ -26,3 +26,18 @@ nav li{
   display: inline-block;
   list-style: none;
 }
+.hero-container{
+  /* border-radius: 20px 20px 0 0;
+  border:12px solid black; */
+  width: 80vw;
+  overflow: hidden;
+}
+.hero-image{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  background-color: #e1e1e1 ;
+  border-radius: 8px 12px 0 0;
+  border: 8px solid #161616;
+  border-bottom: none;
+}
