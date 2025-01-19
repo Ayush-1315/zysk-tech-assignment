@@ -2,11 +2,11 @@ import avatar2 from "../assets/avatar2.png";
 import heroImage from "../assets/hero-section.png";
 import faq from "../assets/faq.png";
 
-import { CompanyList } from "../components/companyList/CompanyList";
+import { CompanyList } from "../components/CompanyList/CompanyList";
 import { FAQComponent } from "../components/FAQComponent/FAQComponent";
+import { BlogCard } from "../components/BlogCard/BlogCard";
 
 import {blogs, questions} from "../data/data";
-import { BlogCard } from "../components/BlogCard/BlogCard";
 
 const Home = () => {
   return (
